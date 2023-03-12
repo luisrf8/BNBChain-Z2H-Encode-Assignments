@@ -14,5 +14,9 @@ Use the main net block explorer to find
 /* Answers */ 
 1. 10/03/2023 at 17:16 Total Supply: 1,123,298,819.751051 Cake (CSupply: 1,123,024,753.195875)
 2. 10/03/2023 at 17:19 Holders: 1,332,665 addresses
-3. 
-4. 
+3. Leapbnb Validate the first block after the genesis block
+4. 12/03/2023 at 16:35 A total of 97 pending txns found
+5. 0x10ED43C718714eb63d5aA57B78B54704E256024E
+6. Needs 5Gwei
+7. Is a transaction to [Contract 0x10ed43c718714eb63d5aa57b78b54704e256024eCreated] (PancakeSwap: Router v2)
+
