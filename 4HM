@@ -80,7 +80,7 @@ contract DogCoin {
         emit thousandAdded(totalSupply);
     }
     function transfer(address _address, uint256 _amount) public {
-        require (balances[msg.sender] < _amount, "Isufficient Balances");
+        require (balances[msg.sender] >= _amount, "Isufficient Balances");
         balances[msg.sender] -= _amount;
         balances[_address] += _amount;
         payments[msg.sender].push(Payment(_address, _amount));
