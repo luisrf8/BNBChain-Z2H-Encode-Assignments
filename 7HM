@@ -1,0 +1,17 @@
+Look at the following contract, there are a number of vulnerabilities
+and flaws. In your teams try to find all of the problems.
+You do not need to fix any of the problems.
+
+
+// line 12
+    there's not msg.sender that we can identify as an owner of the contract
+// line 18
+    if we use the addNewPlayer function we can add as many players as we need
+// line 24
+    the function is public with no restictions (It could be used only with the owner, is not declarated on the constructor line 12)
+    timestamp could be manipulated with the desktop, we can change the result as we need it
+// line 30
+    the function is public with no restictions (It could be used only with the owner, is not declarated on the constructor line 12)
+    we don't identify the addres to pay, we can pay to wich we want
+// line 3
+    this import is open
