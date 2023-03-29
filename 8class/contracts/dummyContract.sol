@@ -7,12 +7,12 @@ pragma solidity ^0.8.9;
 import  "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import  "@openzeppelin/contracts/access/Ownable.sol";
 
-contract DummyContract is ERC20("DummyToken", "DumTkn"), Ownable {
+contract DummyContract is ERC20, Ownable {
     uint constant INITIAL_AMOUNT = 100;
 
-    constructor() {}
+    constructor() ERC20("DummyToken", "DumTkn") {}
 
     function setup() external onlyOwner {
-        _mint(msg.sender, INITIAL_AMOUNT)
+        _mint(msg.sender, INITIAL_AMOUNT);
     }
 }

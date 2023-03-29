@@ -1,8 +1,8 @@
-Create an BEP20 contract with the following details :
-Name : "BadgerCoin"
-Symbol : "BC"
-Decimals : 18
-Initial supply : 1000000 tokens
+// Create an BEP20 contract with the following details :
+// Name : "BadgerCoin"
+// Symbol : "BC"
+// Decimals : 18
+// Initial supply : 1000000 tokens
 
 // Response
 
